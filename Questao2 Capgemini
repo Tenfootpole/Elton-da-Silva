@@ -1,0 +1,22 @@
+var
+nome,senha:caractere
+comprimento:inteiro
+inicio
+escreval("Digite o nome:")
+leia(nome)
+repita
+   escreval("Digite sua senha:")
+   leia(senha)
+   comprimento <- compr (senha)
+   limpatela
+   escreval("A sua senha contem",comprimento," caracteres")
+
+   se comprimento <= 5 entao
+      escreval("Senha fraca,digite seis caracteres no mínimo!")
+   senao
+      se comprimento >= 6 entao
+         escreval("Senha forte!")
+      fimse
+   fimse
+ate comprimento >= 6
+fimalgoritmo
