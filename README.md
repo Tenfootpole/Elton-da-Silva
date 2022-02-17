@@ -1,5 +1,7 @@
 # Elton-da-Silva
-Questao1 Visualg para Capgemini 
+Questao1 Visualg para Capgemini
+
+
 var
 n:inteiro
 
@@ -53,6 +55,8 @@ fimalgoritmo
 
 
 Questao2 Visualg para Capgemini
+
+
 var
 nome,senha:caractere
 comprimento:inteiro
